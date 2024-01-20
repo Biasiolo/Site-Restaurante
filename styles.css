@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: burlywood;
+}
+
+.navbar {
+    background-color: rgba(1, 66, 28, 0.3);
+    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Adicione uma borda opcional para destacar o efeito */
+}
+
+.nav .nav-link.active {
+    background-color: burlywood;
+    color: white;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: aliceblue;
+    
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler {
+    background-color: aqua;
+}
+
+
+.carousel-indicator {
+    text-align: center;
+}
+
+#sobre-restaurante {
+    background-color: burlywood;
+    
+}
+
+#eventos {
+    background-color: bisque;
+}
+
+#contato {
+    background-color: bisque;
+}
+
+.nav-cardapio .nav-link-active {
+    background-color: burlywood;
+    color: white;
+    border-radius: 8px;
+    border-color: bisque;
+
+}
+
+.nav-cardapio .nav-link:hover {
+    background-color: rgb(227, 248, 248);
+    color:burlywood;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    padding:12px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: rgba(1, 66, 28, 0.38);
+}
+
+#sl {
+    margin-top: 8%;
+}
+
+@media (max-width= 767px) {
+
+
+    .carousel-item img {
+        height: 280px;
+
+
+    }
+    
+}
